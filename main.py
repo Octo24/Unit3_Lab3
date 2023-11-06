@@ -12,16 +12,12 @@ first_number = float(first_input)
 second_number = float(second_input)
 
 if operation == "add":
-    result = (first_number, second_number)
-    print(f"Result: {result}")
+    calculator.add(first_number, second_number)
 elif operation == "subtract":
-    result = first_number - second_number
-    print(f"Result: {result}")
+    calculator.subtract(first_number, second_number)
 elif operation == "multiply":
-    result = first_number * second_number
-    print(f"Result: {result}")
+    calculator.multiple(first_number, second_number)
 elif operation == "divide":
-    result = first_number / second_number
-    print(f"Result: {result}")
+    calculator.divide(first_number, second_number)
 else:
     print("Sorry, I do not understand your request.")
