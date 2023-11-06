@@ -7,12 +7,12 @@ first_input = input("Enter in first number: ")
 second_input = input("Enter in second number: ")
 operation = input("Would you like to add/subtract/multiple/divide: ")
 
-# explicitly convert string type to float type
+# convert string to float 
 first_number = float(first_input)
 second_number = float(second_input)
 
 if operation == "add":
-    result = first_number + second_number
+    result = (first_number, second_number)
     print(f"Result: {result}")
 elif operation == "subtract":
     result = first_number - second_number
