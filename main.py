@@ -11,13 +11,19 @@ operation = input("Would you like to add/subtract/multiple/divide: ")
 first_number = float(first_input)
 second_number = float(second_input)
 
+
 if operation == "add":
     calculator.add(first_number, second_number)
 elif operation == "subtract":
     calculator.subtract(first_number, second_number)
+<<<<<<< HEAD
 elif operation == "multiply":
+=======
+elif operation == "multiple":
+>>>>>>> 50e162d65974d461153dd07123cf3915891ebbc8
     calculator.multiple(first_number, second_number)
 elif operation == "divide":
     calculator.divide(first_number, second_number)
 else:
     print("Sorry, I do not understand your request.")
+        
